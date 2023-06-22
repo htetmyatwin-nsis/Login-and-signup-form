@@ -9,10 +9,13 @@
 <body>
   <div class="container">
 
+    <input type="checkbox" name="" id="check">
+
     <!-- Starting Login Form-->
     <div class="login form">
+
        <!---  Login Heading -->
-       <h3>Login</h3>
+       <header>Login</header>
 
       <form action="#">
       <!--- Name input -->
@@ -24,26 +27,28 @@
       
       <a href="#">Forgot password?</a>
 
-    </div>
+      <!--- Button input -->
+    <input type="submit" class="button" value="Login">
 
-    <!--- Button input -->
-    <input type="button" value="Login">
-    <span>Don't have any account? 
-      <label for="">Signup</label>
+    
+
+    <div class="signup">
+    <span class="signup">Don't have any account? 
+      <label for="check">Signup</label>
     </span>
+  </div>
   </form>
 </div>
 <!-- Ending Login Form-->
 
-
 <!-- Starting Signup Form-->
-<div class="login form">
+<div class="registration form">
+      
+  <!---  Signup Heading -->
+  <header>Signup</header>
 
-  <!--- Signup Heading -->
-  <h3>Signup</h3>
-  <form action="#">
-    
-<!--- Name input -->
+ <form action="#">
+ <!--- Name input -->
 <input type="email" placeholder="Enter your email" required>
 
 <!--- password input -->
@@ -51,17 +56,18 @@
 
 <input type="password" placeholder="Confirm your password" required>
 
-</div>
+ <!--- Button input -->
+<input type="submit" class="button" value="Signup">
 
-<!--- Button input -->
-<input type="button" value="Signup">
-<span>Already have an account? 
-  <label for="">Login</label>
+
+<div class="signup">
+<span class="signup">Already have an account? 
+ <label for="check">Login</label>
 </span>
+</div>
 </form>
 </div>
-<!-- Ending Signup Form-->
-
+<!-- Ending Login Form-->
 
 </div>
 </body>
